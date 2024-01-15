@@ -2,7 +2,7 @@
 
 ## Introduction
 
-> English [中文文档](https://github.com/tamaka365/react-mono/blob/main/README.zh-cn.md)
+> English [中文文档](https://github.com/tamaka365/node-project-creator/blob/main/README.zh-cn.md)
 
 > This document is written in Chinese and translated to English using Google `gemini`.
 
