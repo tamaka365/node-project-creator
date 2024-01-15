@@ -13,14 +13,19 @@ Options:
 `;
 
   const argv = minimist(process.argv.slice(2));
-  const { h, help, v, c, ...args } = argv;
+  const { h, help, v, version, c, configdir, ...args } = argv;
   if (h || help || args.length) {
     console.log(helpText);
   }
 
-  if (v) {
+  if (v || version) {
     const packageJson = await loadFileSync('./package.json');
     console.log(packageJson.version);
+  }
+
+  if (c || configdir) {
+    const NPC_HOME = `${process.env.HOME}/.npc-cli`;
+    console.log(`${NPC_HOME}/config.json`);
   }
 
   if (Object.keys(argv).length > 1) {
