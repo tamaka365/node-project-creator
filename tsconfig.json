@@ -1,0 +1,24 @@
+{
+  "include": ["build.config.ts", "src"],
+  "compilerOptions": {
+    "outDir": "dist",
+    "target": "ES2022",
+    "module": "esnext",
+    "skipLibCheck": true,
+
+    /* Bundler mode */
+    "moduleResolution": "bundler",
+    "declaration": false,
+    "sourceMap": false,
+
+    /* Linting */
+    "strict": true,
+    "noUnusedLocals": true,
+    "esModuleInterop": true,
+    "baseUrl": ".",
+    "paths": {
+      "src/*": ["./src/*"]
+    },
+    "verbatimModuleSyntax": true
+  }
+}

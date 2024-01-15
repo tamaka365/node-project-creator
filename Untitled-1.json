@@ -1,0 +1,30 @@
+{
+  "commandList": [
+    {
+      "title": "nextjs app",
+      "type": "command",
+      "value": "pnpm create next-app@latest"
+    },
+    {
+      "title": "cra",
+      "type": "repo",
+      "value": "https://github.com/facebook/create-react-app.git"
+    },
+    {
+      "title": "vite app",
+      "type": "list",
+      "value": [
+        {
+          "title": "nextjs app",
+          "type": "command",
+          "value": "pnpm create next-app@latest"
+        },
+        {
+          "title": "cra",
+          "type": "repo",
+          "value": "https://github.com/facebook/create-react-app.git"
+        }
+      ]
+    }
+  ]
+}
