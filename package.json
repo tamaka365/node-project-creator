@@ -1,6 +1,7 @@
 {
   "name": "node-project-creator",
   "version": "0.1.0",
+  "private": false,
   "type": "module",
   "bin": {
     "npc": "./main.js"
